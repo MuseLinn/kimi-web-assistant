@@ -1,0 +1,66 @@
+/* latex-copier styles */
+
+.kwa-latex-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 9999;
+
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  color: #6b7280;
+  cursor: pointer;
+  transition:
+    opacity 0.15s ease,
+    transform 0.12s ease,
+    color 0.12s ease;
+}
+
+.kwa-latex-btn:hover {
+  color: #16a34a;
+  transform: scale(1.08);
+}
+
+.kwa-latex-btn.copied {
+  background: #bbf7d0;
+  border-color: #16a34a;
+  color: #16a34a;
+}
+
+/* Show on parent hover */
+.katex:hover .kwa-latex-btn,
+mjx-container:hover .kwa-latex-btn,
+.MathJax:hover .kwa-latex-btn,
+.mjx-chtml:hover .kwa-latex-btn,
+[data-math]:hover .kwa-latex-btn,
+math:hover .kwa-latex-btn {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Toast */
+.kwa-toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px 16px;
+  background: rgba(28, 35, 38, 0.9);
+  color: #fff;
+  font-size: 13px;
+  border-radius: 20px;
+  z-index: 99999;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+}

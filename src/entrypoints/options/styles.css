@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 15px;
+
+  background: linear-gradient(165deg, #edf6f9 0%, #e0f2f1 40%, #f5f5dc 100%);
+  min-height: 100vh;
+}
+
+[data-theme='dark'] body {
+  background: linear-gradient(165deg, #1c2326 0%, #0f1a1d 50%, #0d4a1c 100%);
+}

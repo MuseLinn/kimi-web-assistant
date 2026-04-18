@@ -1,0 +1,18 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - link "Python 爬虫入门" [ref=e5] [cursor=pointer]:
+        - /url: /chat/abc123
+      - button "收藏" [active] [ref=e12] [cursor=pointer]:
+        - img [ref=e13]
+    - generic [ref=e6]:
+      - link "React 性能优化" [ref=e7] [cursor=pointer]:
+        - /url: /chat/def456
+      - button "收藏" [ref=e15] [cursor=pointer]:
+        - img [ref=e16]
+    - generic [ref=e8]:
+      - link "数学公式推导" [ref=e9] [cursor=pointer]:
+        - /url: /chat/ghi789
+      - button "收藏" [ref=e18] [cursor=pointer]:
+        - img [ref=e19]
+  - paragraph [ref=e11]: Main content area

@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === Organic gradient backdrop === */
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 14px;
+
+  background: linear-gradient(165deg, #edf6f9 0%, #e0f2f1 30%, #f5f5dc 100%);
+  min-height: 100vh;
+}
+
+[data-theme='dark'] body {
+  background: #14191c;
+}
+
+.popup-root {
+  width: 360px;
+  min-height: 520px;
+  padding: 16px;
+}

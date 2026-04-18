@@ -1,0 +1,122 @@
+- generic [ref=e4]:
+  - complementary [ref=e5]:
+    - link [ref=e7] [cursor=pointer]:
+      - /url: /?chat_enter_method=new_chat
+    - generic [ref=e8]:
+      - link "新建会话 Ctrl K" [ref=e9] [cursor=pointer]:
+        - /url: /?chat_enter_method=new_chat
+        - generic [ref=e10]:
+          - img [ref=e11]
+          - text: 新建会话
+        - generic [ref=e14]:
+          - generic [ref=e15]: Ctrl
+          - generic [ref=e16]: K
+      - generic [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "网站" [ref=e20] [cursor=pointer]:
+              - /url: /websites
+              - generic [ref=e21]:
+                - img [ref=e22]
+                - generic [ref=e25]: 网站
+          - listitem [ref=e26]:
+            - link "文档" [ref=e27] [cursor=pointer]:
+              - /url: /docs
+              - generic [ref=e28]:
+                - img [ref=e29]
+                - generic [ref=e32]: 文档
+          - listitem [ref=e33]:
+            - link "PPT" [ref=e34] [cursor=pointer]:
+              - /url: /slides
+              - generic [ref=e35]:
+                - img [ref=e36]
+                - generic [ref=e38]: PPT
+          - listitem [ref=e39]:
+            - link "表格" [ref=e40] [cursor=pointer]:
+              - /url: /sheets
+              - generic [ref=e41]:
+                - img [ref=e42]
+                - generic [ref=e44]: 表格
+          - listitem [ref=e45]:
+            - link "深度研究" [ref=e46] [cursor=pointer]:
+              - /url: /deep-research
+              - generic [ref=e47]:
+                - img [ref=e48]
+                - generic [ref=e50]: 深度研究
+        - link "Kimi Code" [ref=e51] [cursor=pointer]:
+          - /url: /code?from=kimi_homepage_sidebar
+          - img [ref=e52]
+          - generic [ref=e55]: Kimi Code
+        - link "Kimi Claw Beta" [ref=e56] [cursor=pointer]:
+          - /url: /bot
+          - generic [ref=e58]: Kimi Claw
+          - generic [ref=e59]: Beta
+      - generic [ref=e60]:
+        - generic [ref=e62]:
+          - img [ref=e63]
+          - generic [ref=e65]: 历史会话
+        - generic [ref=e67] [cursor=pointer]: 登录以同步历史会话
+    - generic [ref=e68]:
+      - generic [ref=e69] [cursor=pointer]:
+        - img [ref=e70]
+        - generic [ref=e73]: 查看手机应用
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - generic [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+              - generic [ref=e80]: 下载电脑版
+          - listitem [ref=e81]:
+            - generic [ref=e82] [cursor=pointer]:
+              - img [ref=e83]
+              - generic [ref=e85]: 关于我们
+          - listitem [ref=e86]:
+            - generic [ref=e87] [cursor=pointer]:
+              - img [ref=e88]
+              - generic [ref=e91]: Language
+          - listitem [ref=e92]:
+            - generic [ref=e93] [cursor=pointer]:
+              - img [ref=e94]
+              - generic [ref=e96]: 用户反馈
+        - generic [ref=e97]:
+          - generic [ref=e99] [cursor=pointer]:
+            - img "虚拟用户" [ref=e101]
+            - generic [ref=e102]: 登录
+          - img [ref=e104] [cursor=pointer]
+  - generic [ref=e108]:
+    - img [ref=e112] [cursor=pointer]
+    - generic [ref=e115]:
+      - img "Kimi Doodle" [ref=e118]
+      - generic [ref=e120]:
+        - generic [ref=e122]:
+          - textbox [active] [ref=e123]:
+            - paragraph [ref=e124]
+          - generic: 尽管问...
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - img [ref=e129] [cursor=pointer]
+            - generic [ref=e133] [cursor=pointer]:
+              - img [ref=e134]
+              - generic [ref=e136]: Agent
+          - generic [ref=e137]:
+            - generic [ref=e140] [cursor=pointer]:
+              - generic [ref=e141]: K2.5 快速
+              - img [ref=e142]
+            - img [ref=e145]
+      - generic [ref=e147]:
+        - generic [ref=e149]:
+          - generic [ref=e152] [cursor=pointer]:
+            - img "activity image" [ref=e154]
+            - generic [ref=e155]:
+              - generic [ref=e156]: Kimi Claw 已就位！
+              - generic [ref=e157]: 一键部署 OpenClaw，Kimi 24小时为你干活
+          - img [ref=e159] [cursor=pointer]
+        - generic [ref=e161]:
+          - generic [ref=e162]: 内容由AI生成，请仔细甄别
+          - generic [ref=e163]: © 2026 北京月之暗面科技有限公司
+          - link "京ICP备2023011302号-14" [ref=e164] [cursor=pointer]:
+            - /url: https://beian.miit.gov.cn/#/Integrated/recordQuery
+          - link "京B2-20240852" [ref=e165] [cursor=pointer]:
+            - /url: https://tsm.miit.gov.cn/dxxzsp/xkz/xkzgl/resource/qiyesearch.jsp?num=%25E4%25BA%25ACB2-20240852&type=xuke
+          - link "京公网安备11010802043150号" [ref=e166] [cursor=pointer]:
+            - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802043150

@@ -1,0 +1,44 @@
+{
+  "name": "kimi-web-assistant",
+  "version": "0.1.0",
+  "description": "Browser extension to enhance Kimi web with navigator, LaTeX copier, and collections.",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "tsc --noEmit",
+    "lint": "eslint . --ext ts,tsx",
+    "lint:fix": "eslint . --ext ts,tsx --fix",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css,json}\""
+  },
+  "keywords": [
+    "browser-extension",
+    "kimi",
+    "productivity"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "lucide-react": "^0.487.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "wxt": "^0.20.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@types/chrome": "^0.0.313",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.24.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "postcss": "^8.5.3",
+    "prettier": "^3.5.3",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.30.1"
+  }
+}
