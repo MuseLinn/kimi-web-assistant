@@ -1,12 +1,12 @@
 import React from 'react';
 
-interface GlassCardProps {
+interface GlassCardProps extends React.HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode;
   className?: string;
   hover?: boolean;
 }
 
-export function GlassCard({ children, className = '', hover = true }: GlassCardProps) {
+export function GlassCard({ children, className = '', hover = true, ...rest }: GlassCardProps) {
   return (
     <div
       className={[
@@ -16,6 +16,7 @@ export function GlassCard({ children, className = '', hover = true }: GlassCardP
         'dark:border-white/[0.12] dark:bg-white/[0.08]',
         className,
       ].join(' ')}
+      {...rest}
     >
       {children}
     </div>

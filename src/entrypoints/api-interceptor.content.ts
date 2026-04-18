@@ -16,16 +16,16 @@ export default defineContentScript({
     const originalXHR = window.XMLHttpRequest;
 
     // Extract conversation ID from current URL
-    // Patterns: /chat/{id}, /c/{id}, /conversation/{id}
-    function getConversationIdFromUrl(): string | null {
-      const path = window.location.pathname;
-      const patterns = [/^\/chat\/([^\/]+)/, /^\/c\/([^\/]+)/, /^\/conversation\/([^\/]+)/];
-      for (const p of patterns) {
-        const m = path.match(p);
-        if (m) return m[1];
-      }
-      return null;
+  // Patterns: /chat/{id}, /c/{id}, /conversation/{id}
+  function getConversationIdFromUrl(): string | null {
+    const path = window.location.pathname;
+    const patterns = [/^\/chat\/([^/]+)/, /^\/c\/([^/]+)/, /^\/conversation\/([^/]+)/];
+    for (const p of patterns) {
+      const m = path.match(p);
+      if (m) return m[1];
     }
+    return null;
+  }
 
     // Extract conversation title from page
     function getConversationTitle(): string {
@@ -100,7 +100,7 @@ export default defineContentScript({
           payload: conversation,
         });
         console.log('[KWA] Cached conversation:', convId, messages.length, 'messages');
-      } catch (e) {
+      } catch {
         // Silently fail if extension context is not ready
       }
     }

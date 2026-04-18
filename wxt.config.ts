@@ -5,7 +5,7 @@ export default defineConfig({
   srcDir: 'src',
   manifest: {
     name: 'Kimi Web Assistant',
-    version: '0.1.0',
+    version: '0.2.0',
     description:
       'Enhance Kimi web with conversation navigator, LaTeX copier, and collection manager.',
     permissions: ['storage', 'activeTab', 'clipboardWrite', 'scripting', 'unlimitedStorage'],
